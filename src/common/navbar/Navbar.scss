@@ -1,0 +1,21 @@
+@import '../.././common/Variable.scss';
+
+.navbarwrapper{
+    background-color: $color--nav-bg !important;
+    
+    &__img{
+        height: 30px !important;
+    }
+
+    &__link{
+        color: $color--nav-text !important;
+        
+    }
+
+    .active{
+        color: $color--white !important;
+    }
+
+    
+}
+

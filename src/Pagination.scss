@@ -1,0 +1,42 @@
+.pagination {
+    &__numberData {
+        display: flex;
+
+        &__item {
+            display: none;
+
+            &:nth-child(1),
+            &:nth-child(2),
+            &:nth-child(3) {
+                display: block;
+
+            }
+
+            &:last-child {
+                display: block;
+                padding-left: 20px;
+                position: relative;
+                margin-left: 13px;
+
+                &:after {
+                    content: "...";
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }
+            }
+
+        }
+    }
+
+
+    .active {
+        display: block !important;
+    }
+
+    .active button {
+        background-color: blue;
+        color: white;
+
+    }
+}

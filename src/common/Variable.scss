@@ -1,0 +1,159 @@
+/*
+---------------------------------------------
+File: Variables & Mixins
+---------------------------------------------
+*/
+
+// Button Primary
+$color--primary: #5e81f4;
+$color--nav-bg:#20232a;
+$color--nav-text:#919396;
+$color--primary-hover: #355bb6;
+$color--primary-border: #5e81f4;
+
+$color--primary--dark: #2A4B9B;
+
+// btn Secondary Css
+$color--secondary: #eff2fe;
+$color--secondary-hover: #eff2fe;
+
+// btn-disable
+
+$heading--color: #1c1d21;
+$text-gray-100: #8181a5;
+$input-border: #f0f0f3;
+$default-color: #1c1d21;
+$color--white: #fff;
+$color--tertiary: #f5f8ff;
+$color--tertiary-hover: #e4eaf9;
+
+$color--highlight: #fcb72b;
+$color--highlight-hover: #e3a525;
+$color--highlight-bg: rgba(244, 190, 94, 0.1);
+
+$color--error: #e3555a;
+$color--error-hover: #c9464b;
+
+$color--error-bg: #fff1f1;
+
+$color--success: #1dba8d;
+$color--success-hover: #229675;
+$color--success-bg: rgba(124, 231, 172, 0.1);
+$color--grey-darker: #1f2125;
+$color--grey-dark: lighten(#000, 20%); // #333
+$color--grey: #6a6b6d;
+$color--grey-light: lighten(#000, 60%); // #999
+$color--grey-lighter: #c7cad3;
+
+$color--cyan: #E0FFFF;
+$color--purple: #A020F0;
+$color--yellow: #FFFF00;
+$shadow-color: #b5b5b5;
+$btn-icon-bg: #e9e9f1;
+$btn-icon-color: #8181a5;
+
+// SideMenu Colors
+
+$sidemenu--bg-active: #eff2fe;
+$color--blue-100: rgba(94, 129, 244, 0.1);
+$dropdown-border: #f0f0f3;
+$backdrop-color: rgba(28, 29, 33, 0.35);
+$dropdown-shadow: rgba(0, 0, 0, 0.1);
+
+// Leads Color
+$table--head-bg: #fbfbfd;
+
+// toggle
+
+$toggle--bg: #f5f5f5;
+$toggle--inactive-color: #98a9bc;
+
+$color--pink-100: #ff808b;
+$color--green-100: #7ce7ac;
+$color--red-100: #d91212;
+$color--orange-100: #ff9a19;
+$color--orange-200: #f4be5e;
+$color--green-200: #3fb8af;
+$color--green-300: #2ce5f6;
+
+$app--bg: #f5f5fa;
+$color--light-blue-3: #8181a5;
+
+$color--gray-901: #f6f6f6;
+$color--gray-918: #d7dffd;
+$color--gray-300: #ccc;
+$color--gray-100: #eee;
+$color--gray-200: #FAFAFA;
+$color--gray-400: #f0f0f0;
+$card--shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+/*
+---------------------------------------------
+File: END Variables & Mixins
+---------------------------------------------
+*/
+
+// These  Variables will be deleted later
+
+$color--gray-100: #eee;
+$color--gray-200: #ddd;
+$color--gray-300: #ccc;
+$color--gray-400: #e4e4e4;
+$color--gray-600: #f7f7f7;
+$color--gray-700: #efefef;
+$color--gray-800: #f0f0f0;
+$color--gray-900: #f0f0f3;
+
+$color--gray-902: #eff2fe;
+$color--gray-903: #f5f5fa;
+$color--gray-904: #f5f5f5;
+$color--gray-905: #eef2fd;
+$color--gray-906: #fbfbfd;
+$color--gray-907: #b8b8b8;
+$color--gray-908: #9c9c9c;
+$color--gray-909: #dbdbdb;
+$color--gray-910: #d7d7d7;
+$color--gray-911: #aeaeae;
+$color--gray-912: #fafafa;
+$color--gray-913: #d3d3d3;
+$color--gray-914: #d9d9d9;
+$color--gray-915: #bbbbbb;
+$color--gray-916: #ebebeb;
+$color--gray-917: #e8e7e6;
+
+$color--gray-919: #ececf2;
+$color--gray-920: #e9e9f1;
+
+$color--light-gray: #aaa;
+$color--light-gray-1: #888;
+$color--light-gray-2: #444;
+$color--light-gray-3: #4a4a4a;
+$color--light-gray-4: #a1a1a1;
+$color--light-gray-5: #555;
+
+$color--light-gray-3: #999;
+$color--light-blue-1: #5897fb;
+$color--light-blue-2: #3875d7;
+
+$color--light-blue-4: #475eaa;
+$color--light-blue-5: #5e81f4;
+$color--light-blue-6: #98a9bc;
+$color--light-blue-7: #466ef2;
+$color--light-blue-8: #1b51e5;
+$color--light-blue-9: #9698d6;
+
+$color--black: #000;
+$color--black-100: #1c1d21;
+$color--black-150: #1a1a1a;
+
+$color--black--opacity-100: rgba(255, 128, 139, 0.15);
+$color--black--opacity-200: rgba(124, 231, 172, 0.15);
+$color--black--opacity-300: rgba(0, 0, 0, 0.1);
+
+$datepicker--color-100: #dedede;
+$datepicker--color-200: #c5c5c5;
+$datepicker--color-300: #a6b9f9;
+$datepicker--color-400: #8ea6f7;
+$datepicker--color-inrange-100: rgba(94, 129, 244, 0.1);
+$datepicker--color-inrange-200: rgba(94, 129, 244, 0.2);
+$color--blue-inrange-300: rgba(94, 129, 244, 0.5);

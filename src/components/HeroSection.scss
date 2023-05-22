@@ -1,0 +1,109 @@
+@import '../common/Variable.scss';
+
+.herosection {
+    h1 {
+
+        color: $color--herosection;
+        font-weight: 700;
+        font-size: 50px;
+        margin: 20px 0;
+    }
+
+    p{
+        line-height: 2;
+        font-size: 23px;
+        color: $color--white;
+        letter-spacing: 1px;
+    }
+    &__buttonsec{
+        
+        &__first{
+            padding: 8px 45px;
+            background-color: transparent;
+            color:  $color--herosection;
+            border-radius: 8px;
+            font-size: 22px;
+            border: 1px solid $color--herosection;
+            transition: all 0.3s linear;
+
+        }
+
+        &__first:hover{
+            background-color: $color--herosection;
+            color: $bg-color--herosection;
+
+        }
+
+        &__second{
+            padding: 8px 45px;
+            background-color: transparent;
+            color:  $color--white;
+            border-radius: 8px;
+            font-size: 22px;
+            border: 1px solid $color--white;
+            margin-left: 17px;
+            transition: all 0.3s linear;
+        }
+
+        &__second:hover{
+            background-color: $color--white;
+            color: $bg-color--herosection;
+        }
+    }
+
+    &__bootom{
+        margin-top: 20px;
+        span{
+            color: $color--nav-text;
+            letter-spacing: 1px;
+
+        }
+
+        &__data{
+            margin-top: 20px;
+            display: flex;
+            cursor: pointer;
+
+            figure{
+                img{
+                    max-width: 130px;
+                    width: 130px;
+                    height: 116%;
+                }
+            }
+
+        &__text{
+            background-color: $color--white;
+            position: relative;
+            p{
+            color: $color--black-150;
+            line-height: 20px;
+            font-size: 16px;
+            padding: 10px;
+           
+            }
+
+            span
+            { 
+
+                display: block;
+                padding: 6px 8px;
+                background: $color-white-color-span;
+                text-align: center;
+                text-transform: uppercase;
+                letter-spacing: .5px;
+                font-weight: 600;
+                font-size: 8px;
+                line-height: 1;
+                border-top-left-radius: 3px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                color: $color--black-150;
+              }
+        }    
+        }
+    }
+    
+
+}

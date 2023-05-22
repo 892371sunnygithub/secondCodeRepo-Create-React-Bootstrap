@@ -1,10 +1,11 @@
 import React from 'react'
-import Layout from '../../layout/Layout'
 import MainData from '../../common/main/MainData'
+import Navbar from '../../common/navbar/Navbar'
 
 const Home = () => {
   return (
     <div>
+    <Navbar />
         <MainData />
     </div>
   )

@@ -7,11 +7,7 @@ const NavData={
         path:"/",
       },
 
-      {
-        name:"About",
-        path:"/about",
-      },
-
+    
       {
         name:"Get Started",
         path:"/introduction",
@@ -24,7 +20,7 @@ const NavData={
     ],
     
     version:"v2.7.2(Bootstrap 5.2)",
-    versionData:["(Bootstrap 4.0)", "(Bootstrap 3.0)" ],
+    versionData:["v1.6.1(Bootstrap 4.0)", "v0.33.1(Bootstrap 3.0)" ],
     logo:NavLogo,
 
 }

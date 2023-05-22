@@ -2,7 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import NavData from './NavData'
 import './Navbar.scss';
-
+import {BsDiscord} from 'react-icons/bs'
+import {AiFillGithub} from 'react-icons/ai'
 const Navbar = () => {
     
 const {navlist, version, versionData, logo,}= NavData;
@@ -31,10 +32,26 @@ const {navlist, version, versionData, logo,}= NavData;
         }
         
     </ul>
-      <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+    <div className='navbarwrapper__rightdata'>
+    <ul className='navbarwrapper__rightdata__dropdown m-0'>
+    <li class="nav-item dropdown ">
+          <span class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {version}
+          </span>
+          <ul class="dropdown-menu">
+          {
+            versionData.map((data)=><li><span class="dropdown-item" href="#">{data} </span></li>)
+          }
+            
+            
+          </ul>
+          
+        </li>
+        </ul>
+
+      <span className='navbarwrapper__rightdata__github'><AiFillGithub/> </span>
+      <span className='navbarwrapper__rightdata__discord'><BsDiscord/> </span>  
+      </div>
     </div>
   </div>
 </nav>

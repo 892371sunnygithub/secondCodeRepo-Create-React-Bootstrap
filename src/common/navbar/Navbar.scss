@@ -2,7 +2,16 @@
 
 .navbarwrapper{
     background-color: $color--nav-bg !important;
-    
+    padding: 15px !important;
+
+    ul{
+        li{
+            padding-left: 16px;
+            a{
+                font-size: 18px;
+            }
+        }
+    }
     &__img{
         height: 30px !important;
     }

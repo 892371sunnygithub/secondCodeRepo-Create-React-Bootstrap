@@ -13,20 +13,20 @@ const Layout = ({children}) => {
             </header>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-3 p-0">
+                    <div className="col-md-2 p-0">
                         <aside>
                             <Sidebar />
                         </aside>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-8">
                         <main>
                             {/* <MainData /> */}
                             {children}
                         </main>
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-md-2">
                         <aside>
                             <RightSidebar />
                         </aside>

@@ -1,8 +1,8 @@
 import React from 'react'
 import "./MainData.scss";
-import HeroSection from '../../components/HeroSection';
-import Content from '../../components/Content';
-import ContentData from '../../components/ContentData';
+import HeroSection from '../../components/herosection/HeroSection';
+import Content from '../../components/content/Content';
+import ContentData from '../../components/content/ContentData';
 
 const MainData = () => {
 

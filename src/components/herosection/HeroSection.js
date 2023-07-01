@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImage from '../assets/herocardimage.jpg'
+import heroImage from '../../assets/herocardimage.jpg'
 import data from './HeroSectionData'
 import './HeroSection.scss'
 const HeroSection = () => {

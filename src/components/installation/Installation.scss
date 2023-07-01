@@ -1,0 +1,22 @@
+@import '../../common/Variable.scss';
+
+.installation{
+    .para{
+        color: #212529;
+    line-height: 29px;
+    max-width: 627px;
+    // letter-spacing: 1px;
+    }
+    
+    .link{
+        display: flex;
+        align-items: center;
+        background-color: #282c34;
+        padding: 22px 15px;
+        color: $color--white;
+        border-radius: 9px;
+        p{
+            letter-spacing: 1px;
+        }
+    }
+}

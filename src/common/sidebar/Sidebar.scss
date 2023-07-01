@@ -30,7 +30,7 @@
             }
 
             &:hover{
-                border: 2px solid #0d6efd;
+              border: 3px solid #0d6efd;
             }
 
            
@@ -54,21 +54,24 @@
 
 
     &__list{
-        overflow-y: scroll;
-        height: 595px;
+        overflow-y: auto;
+        height: 90%;
         
         ul{
             
             padding-top: 24px;
+            
             padding-left: 24px;
             
             li{
                 list-style: none;
-                margin-top: 5px;
+                
                 a{
                     font-size: 18px;
                     color:  $color--nav-text !important;
                 }
+
+                
             }
         }
     }

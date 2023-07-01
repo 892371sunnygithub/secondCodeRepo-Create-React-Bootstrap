@@ -1,0 +1,59 @@
+@import '../../common/Variable.scss';
+
+.introduction{
+    &__inner{
+       
+        h1{
+        font-size: 43px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        }
+
+        .paraone{
+            color: #6c757d;
+            font-weight: 300;
+            font-size: 20px;
+        }
+
+        &__card{
+            max-width: 400px;
+            background-color: #fafafa;
+            border: 2px solid $dropdown-border;
+            .data{
+                display: flex;
+                align-items: center;
+              
+                img{
+                  width: 130px;
+                
+               } 
+               p{
+                margin-left: 8px;
+                line-height: 20px;
+                padding-right: 10px;
+               }
+            }
+
+            .button{
+                
+                text-align: end;
+
+                span{
+                   
+                    padding: 6px 8px;
+                    background: #f1f1f2;
+                    text-transform: uppercase;
+                    letter-spacing: .5px;
+                    font-weight: 600;
+                    font-size: 8px;
+                    line-height: 1;
+                    border-top-left-radius: 3px;
+                    font-size: 9px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        
+    }
+}

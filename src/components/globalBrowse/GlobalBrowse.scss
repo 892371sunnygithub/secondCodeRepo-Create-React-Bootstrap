@@ -1,0 +1,18 @@
+@import '../../common/Variable.scss';
+
+.global{
+    .watch{
+        border-left: 5px solid #ff6464;
+        background-color: rgba(255,100,100,.3);
+        padding: 12px;
+        letter-spacing: 1px;
+
+    }
+
+    .create_app{
+        border-left: 5px solid #ffe564;
+        background-color:  rgba(255,229,100,.3);
+        padding: 12px;
+        
+    }
+}

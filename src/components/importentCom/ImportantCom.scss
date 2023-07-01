@@ -1,0 +1,40 @@
+@import '../../common/Variable.scss';
+
+
+.important{
+    .para{
+        
+        color: #212529;
+        line-height: 29px;
+        max-width: 627px;
+        // letter-spacing: 1px;
+        
+
+        code{
+           color: #d63384;
+        }
+    }
+
+    .link{
+        background-color: #282c34;
+        padding: 22px 15px;
+        color: white;
+        border-radius: 9px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        p{
+            .lightblue{
+                color: #c5a5c5;
+            }
+
+            .lightgreen{
+                color: #8dc891;;
+            }
+
+            .lightgray{
+                color: #999;
+            }
+            
+        }
+    }
+}

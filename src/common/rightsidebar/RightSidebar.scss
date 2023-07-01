@@ -1,1 +1,44 @@
 @import '../Variable.scss';
+
+.rightSidebar{
+    padding: 16px;
+    ul{
+        border-left: 1px solid  $dropdown-border;
+        li{
+            list-style: none;
+            margin-top: 5px;
+
+            a{
+                color: $color--nav-text;
+                text-decoration: underline;
+                transition: all 0.3s linear;
+                &:hover{
+                  color: blue;
+                  text-decoration: none;
+                }
+
+               
+            }
+
+            &:nth-child(3){
+                padding-left: 16px;
+            }
+
+            &:nth-child(6){
+                padding-left: 16px;
+            }
+
+            &:nth-child(7){
+                padding-left: 16px;
+            }
+
+            &:nth-child(8){
+                padding-left: 25px;
+            }
+
+            &:nth-child(9){
+                padding-left: 12px;
+            }
+        }
+    }
+}
